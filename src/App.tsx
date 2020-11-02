@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
+import { IonApp, IonPage, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import Game from './pages/Game';
@@ -29,15 +29,17 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-      <Route path="/dictionary/:word" component={Definition} exact={true} />
-      <Route path="/dictionary" component={Dictionary} exact={true} />
-      <Route path="/game" component={Game} exact={true} />
-        <Route path="/home" component={Home} exact={true} />
-        <Route exact path="/" render={() => <Redirect to="/home" />} />
-      </IonRouterOutlet>
-    </IonReactRouter>
+    <IonPage>
+      <IonReactRouter>
+        <IonRouterOutlet>
+        <Route path="/dictionary/:word" component={Definition} exact={true} />
+        <Route path="/dictionary" component={Dictionary} exact={true} />
+        <Route path="/game" component={Game} exact={true} />
+          <Route path="/home" component={Home} exact={true} />
+          <Route exact path="/" render={() => <Redirect to="/home" />} />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonPage>
   </IonApp>
 );
 
