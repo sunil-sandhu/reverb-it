@@ -1,4 +1,4 @@
-import { IonContent, IonRouterLink } from "@ionic/react";
+import { IonPage, IonContent, IonRouterLink } from "@ionic/react";
 import React from "react";
 import styled from "styled-components";
 
@@ -51,23 +51,25 @@ const StyledButton = styled.button`
 
 const Home: React.FC = () => {
   return (
-    <IonContent>
-      <StyledContainer>
-        <StyledContent>
-          <StyledSection>
-            <StyledTitle>Reverb</StyledTitle>
-          </StyledSection>
-          <StyledSection>
-            <IonRouterLink routerLink="game" routerDirection="forward">
-              <StyledButton>Play</StyledButton>
-            </IonRouterLink>
-            <IonRouterLink routerLink="dictionary" routerDirection="forward">
-              <StyledButton>Dictionary</StyledButton>
-            </IonRouterLink>
-          </StyledSection>
-        </StyledContent>
-      </StyledContainer>
-    </IonContent>
+    <IonPage>
+      <IonContent>
+        <StyledContainer>
+          <StyledContent>
+            <StyledSection>
+              <StyledTitle>Reverb</StyledTitle>
+            </StyledSection>
+            <StyledSection>
+              <IonRouterLink routerLink="game" routerDirection="forward">
+                <StyledButton>Play</StyledButton>
+              </IonRouterLink>
+              <IonRouterLink routerLink="dictionary" routerDirection="forward">
+                <StyledButton>Progress</StyledButton>
+              </IonRouterLink>
+            </StyledSection>
+          </StyledContent>
+        </StyledContainer>
+      </IonContent>
+    </IonPage>
   );
 };
 
