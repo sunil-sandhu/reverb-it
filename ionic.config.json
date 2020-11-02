@@ -1,5 +1,7 @@
 {
   "name": "reverb-it",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
