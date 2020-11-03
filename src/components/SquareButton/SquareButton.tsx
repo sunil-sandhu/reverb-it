@@ -14,20 +14,21 @@ interface ButtonProps {
 }
 
 const StyledButton = styled.button`
-  margin: 6px auto;
-  width: 100%;
-  padding: 18px 20px;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  font-size: 1.5rem;
+  width: calc(50% - 10px);
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  font-size: 1.1rem;
   font-family: Helvetica;
-  font-weight: 600;
+  font-weight: bold;
   border: 1px solid black;
   letter-spacing: -1px;
+  height: 120px;
+  margin: 5px;
 `;
 
-const Button = ({ onClickFunc, title, type }: ButtonProps) => {
+const SquareButton = ({ onClickFunc, title, type }: ButtonProps) => {
   return (
     <StyledButton onClick={onClickFunc} aria-label={title}>
       {title}
@@ -35,4 +36,4 @@ const Button = ({ onClickFunc, title, type }: ButtonProps) => {
   );
 };
 
-export default Button;
+export default SquareButton;

@@ -2,25 +2,9 @@ import { IonPage, IonContent, IonRouterLink } from "@ionic/react";
 import React from "react";
 import styled from "styled-components";
 
-const StyledContainer = styled.div`
-  background: url("assets/img/home-bg.png");
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-`;
-
-const StyledContent = styled.div`
-  display: flex;
-  height: 100%;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-`;
-
 const StyledSection = styled.div`
   width: 100%;
+  height: 60%;
   padding: 30px 20px;
   display: block;
   text-align: center;
@@ -49,25 +33,26 @@ const StyledButton = styled.button`
   letter-spacing: -1px;
 `;
 
+const StyledFooter = styled.div`
+  padding: 16px;
+`;
+
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonContent>
-        <StyledContainer>
-          <StyledContent>
-            <StyledSection>
-              <StyledTitle>Reverb</StyledTitle>
-            </StyledSection>
-            <StyledSection>
-              <IonRouterLink routerLink="game" routerDirection="forward">
-                <StyledButton>Play</StyledButton>
-              </IonRouterLink>
-              <IonRouterLink routerLink="dictionary" routerDirection="forward">
-                <StyledButton>Progress</StyledButton>
-              </IonRouterLink>
-            </StyledSection>
-          </StyledContent>
-        </StyledContainer>
+      <IonContent className="home">
+        <StyledSection>
+          <StyledTitle>Reverb</StyledTitle>
+        </StyledSection>
+
+        <StyledFooter>
+          <IonRouterLink routerLink="game" routerDirection="forward">
+            <StyledButton>Play</StyledButton>
+          </IonRouterLink>
+          <IonRouterLink routerLink="dictionary" routerDirection="forward">
+            <StyledButton>Progress</StyledButton>
+          </IonRouterLink>
+        </StyledFooter>
       </IonContent>
     </IonPage>
   );
