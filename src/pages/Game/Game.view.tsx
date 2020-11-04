@@ -7,7 +7,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import PillButton from "../../components/PillButton";
 import SquareButton from "../../components/SquareButton";
@@ -36,24 +36,55 @@ const StyledBoldSmallWord = styled.p`
   font-weight: bold;
 `;
 
-const Game: React.FC = () => {
+const StyledContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  flex-flow: column;
+  display: flex;
+  justify-content: center;
+`;
+
+type Color = "red" | "green" | undefined;
+
+interface GameViewProps {
+  guesses: [];
+  guessMade: boolean;
+  handleButtonColor: (arg0: string) => Color;
+  handleGuessResponse: (arg0: string) => void;
+}
+
+const GameView: React.FC<GameViewProps> = ({
+  guesses,
+  guessMade,
+  handleButtonColor,
+  handleGuessResponse,
+}) => {
   return (
     <IonPage>
       <IonHeader className="ion-no-border ion-padding">
         <IonToolbar>
-          <IonTitle>score / total</IonTitle>
+          <div className="justify-center">
+            <IonTitle>score / total</IonTitle>
+          </div>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        <StyledBoldSmallWord>voi</StyledBoldSmallWord>
-        <StyledWord>bulareste</StyledWord>
-        <StyledSmallWord>(bulare)</StyledSmallWord>
-        <StyledSquareContainer>
-          <SquareButton title="something" />
-          <SquareButton title="something" />
-          <SquareButton title="something" />
-          <SquareButton title="something" />
-        </StyledSquareContainer>
+        <StyledContainer>
+          <StyledBoldSmallWord>voi</StyledBoldSmallWord>
+          <StyledWord>bulareste</StyledWord>
+          <StyledSmallWord>(bulare)</StyledSmallWord>
+          <StyledSquareContainer>
+            {guesses.map((guess: string) => (
+              <SquareButton
+                key={guess}
+                title={guess}
+                guessMade={guessMade}
+                color={handleButtonColor(guess)}
+                onClickFunc={() => handleGuessResponse(guess)}
+              />
+            ))}
+          </StyledSquareContainer>
+        </StyledContainer>
       </IonContent>
       <IonFooter className="ion-no-border ion-padding">
         <IonToolbar>
@@ -68,4 +99,4 @@ const Game: React.FC = () => {
   );
 };
 
-export default Game;
+export default GameView;

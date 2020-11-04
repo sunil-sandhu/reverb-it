@@ -19,8 +19,10 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledButton = styled.button`
+  display: block;
   margin: 6px auto;
   width: 100%;
+  // max-width: 420px;
   padding: 18px 20px;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.7);
@@ -50,7 +52,7 @@ const Home: React.FC = () => {
             <StyledButton>Play</StyledButton>
           </IonRouterLink>
           <IonRouterLink routerLink="dictionary" routerDirection="forward">
-            <StyledButton>Progress</StyledButton>
+            <StyledButton>Dictionary</StyledButton>
           </IonRouterLink>
         </StyledFooter>
       </IonContent>

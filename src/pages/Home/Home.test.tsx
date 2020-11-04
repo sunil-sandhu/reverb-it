@@ -15,6 +15,6 @@ test("renders a play button", () => {
 
 test("renders a progress button", () => {
   render(<Home />);
-  const button = screen.getByRole("button", { name: /progress/i });
+  const button = screen.getByRole("button", { name: /dictionary/i });
   expect(button).toBeInTheDocument();
 });

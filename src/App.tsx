@@ -32,8 +32,8 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route path="/dictionary/:word" component={Definition} exact={true} />
         <Route path="/dictionary" component={Dictionary} exact={true} />
+        <Route path="/dictionary/:word" component={Definition} />
         <Route path="/game" component={Game} exact={true} />
         <Route path="/home" component={Home} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
