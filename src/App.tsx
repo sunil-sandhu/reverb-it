@@ -28,18 +28,24 @@ import "./theme/variables.css";
 
 import "./theme/styles.css";
 
-const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-        <Route path="/dictionary" component={Dictionary} exact={true} />
-        <Route path="/dictionary/:word" component={Definition} />
-        <Route path="/game" component={Game} exact={true} />
-        <Route path="/home" component={Home} exact={true} />
-        <Route exact path="/" render={() => <Redirect to="/home" />} />
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
-);
+const App: React.FC = () => {
+  return (
+    <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+          <Route
+            path="/dictionary"
+            render={(props: any) => <Dictionary {...props} />}
+            exact={true}
+          />
+          <Route path="/dictionary/:wordId" render={(props: any) => <Definition {...props} />} />
+          <Route path="/game" render={(props: any) => <Game {...props} />} exact={true} />
+          <Route path="/home" render={(props: any) => <Home {...props} />} exact={true} />
+          <Route exact path="/" render={() => <Redirect to="/home" />} />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp>
+  );
+};
 
 export default App;

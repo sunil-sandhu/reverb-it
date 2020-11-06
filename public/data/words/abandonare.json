@@ -1,0 +1,181 @@
+{
+  "IO": {
+    "INDICATIVO": {
+      "PRESENTE": "io abandono",
+      "IMPERFETTO": "io abandonavo",
+      "PASSATO_REMOTO": "io abandonai",
+      "FUTURO_SEMPLICE": "io abandonerò",
+      "PASSATO_PROSSIMO": "io ho abandonato",
+      "TRAPASSATO_PROSSIMO": "io avevo abandonato",
+      "FUTURO_ANTERIORE": "io avrò abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che io abandoni",
+      "IMPERFETTO": "che io abandonassi",
+      "PASSATO": "che io abbia abandonato",
+      "TRAPASSATO": "che io avessi abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "io abandonerei",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "io avrei abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  },
+  "TU": {
+    "INDICATIVO": {
+      "PRESENTE": "tu abandoni",
+      "IMPERFETTO": "tu abandonavi",
+      "PASSATO_REMOTO": "tu abandonasti",
+      "FUTURO_SEMPLICE": "tu abandonerai",
+      "PASSATO_PROSSIMO": "tu hai abandonato",
+      "TRAPASSATO_PROSSIMO": "tu avevi abandonato",
+      "FUTURO_ANTERIORE": "tu avrai abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che tu abandoni",
+      "IMPERFETTO": "che tu abandonassi",
+      "PASSATO": "che tu abbia abandonato",
+      "TRAPASSATO": "che tu avessi abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "tu abandoneresti",
+      "IMPERATIVO": "abandona",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "tu avresti abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  },
+  "LUI_LEI": {
+    "INDICATIVO": {
+      "PRESENTE": "lui/lei abandona",
+      "IMPERFETTO": "lui/lei abandonava",
+      "PASSATO_REMOTO": "lui/lei abandonò",
+      "FUTURO_SEMPLICE": "lui/lei abandonerà",
+      "PASSATO_PROSSIMO": "lui/lei ha abandonato",
+      "TRAPASSATO_PROSSIMO": "lui/lei aveva abandonato",
+      "FUTURO_ANTERIORE": "lui/lei avrà abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che lui/lei abandoni",
+      "IMPERFETTO": "che lui/lei abandonasse",
+      "PASSATO": "che lui/lei abbia abandonato",
+      "TRAPASSATO": "che lui/lei avesse abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "lui/lei abandonerebbe",
+      "IMPERATIVO": "abandoni",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "lui/lei avrebbe abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  },
+  "NOI": {
+    "INDICATIVO": {
+      "PRESENTE": "noi abandoniamo",
+      "IMPERFETTO": "noi abandonavamo",
+      "PASSATO_REMOTO": "noi abandonammo",
+      "FUTURO_SEMPLICE": "noi abandoneremo",
+      "PASSATO_PROSSIMO": "noi abbiamo abandonato",
+      "TRAPASSATO_PROSSIMO": "noi avevamo abandonato",
+      "FUTURO_ANTERIORE": "noi avremo abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che noi abandoniamo",
+      "IMPERFETTO": "che noi abandonassimo",
+      "PASSATO": "che noi abbiamo abandonato",
+      "TRAPASSATO": "che noi avessimo abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "noi abandoneremmo",
+      "IMPERATIVO": "abandoniamo",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "noi avremmo abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  },
+  "VOI": {
+    "INDICATIVO": {
+      "PRESENTE": "voi abandonate",
+      "IMPERFETTO": "voi abandonavate",
+      "PASSATO_REMOTO": "voi abandonaste",
+      "FUTURO_SEMPLICE": "voi abandonerete",
+      "PASSATO_PROSSIMO": "voi avete abandonato",
+      "TRAPASSATO_PROSSIMO": "voi avevate abandonato",
+      "FUTURO_ANTERIORE": "voi avrete abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che voi abandoniate",
+      "IMPERFETTO": "che voi abandonaste",
+      "PASSATO": "che voi abbiate abandonato",
+      "TRAPASSATO": "che voi aveste abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "voi abandonereste",
+      "IMPERATIVO": "abandonate",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "voi avreste abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  },
+  "LORO": {
+    "INDICATIVO": {
+      "PRESENTE": "loro abandonano",
+      "IMPERFETTO": "loro abandonavano",
+      "PASSATO_REMOTO": "loro abandonarono",
+      "FUTURO_SEMPLICE": "loro abandoneranno",
+      "PASSATO_PROSSIMO": "loro hanno abandonato",
+      "TRAPASSATO_PROSSIMO": "loro avevano abandonato",
+      "FUTURO_ANTERIORE": "loro avranno abandonato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che loro abandonino",
+      "IMPERFETTO": "che loro abandonassero",
+      "PASSATO": "che loro abbiano abandonato",
+      "TRAPASSATO": "che loro avessero abandonato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "loro abandonerebbero",
+      "IMPERATIVO": "abandonino",
+      "INFINITO": "abandonare",
+      "PARTICIPIO": "abandonante",
+      "GERUNDIO": "abandonando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "loro avrebbero abandonato",
+      "INFINITO": "avere abandonato",
+      "PARTICIPIO": "abandonato",
+      "GERUNDIO": "avendo abandonato"
+    }
+  }
+}

@@ -4,20 +4,21 @@ const { Storage } = Plugins;
 
 export const dbFunctions = {
   // JSON "set" example
-  // setObject: async function setObject() {
-  //   await Storage.set({
-  //     key: "user",
-  //     value: JSON.stringify({
-  //       id: 1,
-  //       name: "Max",
-  //     }),
-  //   });
-  // },
+  setObject: async function setObject(id, key, val) {
+    await Storage.set({
+      key: "dictionary",
+      value: JSON.stringify({
+        id: id,
+        [key]: val,
+      }),
+    });
+  },
   // JSON "get" example
-  // getObject: async function getObject() {
-  //   const ret = await Storage.get({ key: "user" });
-  //   const user = JSON.parse(ret.value);
-  // },
+  getObject: async function getObject(id) {
+    const ret = await Storage.get({ key: id });
+    const val = JSON.parse(ret.value);
+    return val;
+  },
 
   setItem: async function setItem(key, value) {
     const _value = JSON.stringify(value);

@@ -1,0 +1,151 @@
+{
+  "IO": {
+    "INDICATIVO": {
+      "PRESENTE": "io estroverto",
+      "IMPERFETTO": "io estrovertevo",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "io estroverterò",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che io estroverta",
+      "IMPERFETTO": "che io estrovertessi",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "io estroverterei",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  },
+  "TU": {
+    "INDICATIVO": {
+      "PRESENTE": "tu estroverti",
+      "IMPERFETTO": "tu estrovertevi",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "tu estroverterai",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che tu estroverta",
+      "IMPERFETTO": "che tu estrovertessi",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "tu estroverteresti",
+      "IMPERATIVO": "estroverti",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  },
+  "LUI_LEI": {
+    "INDICATIVO": {
+      "PRESENTE": "lui/lei estroverte",
+      "IMPERFETTO": "lui/lei estroverteva",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "lui/lei estroverterà",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che lui/lei estroverta",
+      "IMPERFETTO": "che lui/lei estrovertesse",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "lui/lei estroverterebbe",
+      "IMPERATIVO": "estroverta",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  },
+  "NOI": {
+    "INDICATIVO": {
+      "PRESENTE": "noi estrovertiamo",
+      "IMPERFETTO": "noi estrovertevamo",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "noi estroverteremo",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che noi estrovertiamo",
+      "IMPERFETTO": "che noi estrovertessimo",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "noi estroverteremmo",
+      "IMPERATIVO": "estrovertiamo",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  },
+  "VOI": {
+    "INDICATIVO": {
+      "PRESENTE": "voi estrovertete",
+      "IMPERFETTO": "voi estrovertevate",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "voi estroverterete",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che voi estrovertiate",
+      "IMPERFETTO": "che voi estroverteste",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "voi estrovertereste",
+      "IMPERATIVO": "estrovertete",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  },
+  "LORO": {
+    "INDICATIVO": {
+      "PRESENTE": "loro estrovertono",
+      "IMPERFETTO": "loro estrovertevano",
+      "PASSATO_REMOTO": "—",
+      "FUTURO_SEMPLICE": "loro estroverteranno",
+      "PASSATO_PROSSIMO": "—",
+      "TRAPASSATO_PROSSIMO": "—",
+      "FUTURO_ANTERIORE": "—"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che loro estrovertano",
+      "IMPERFETTO": "che loro estrovertessero",
+      "PASSATO": "—",
+      "TRAPASSATO": "—"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "loro estroverterebbero",
+      "IMPERATIVO": "estrovertano",
+      "INFINITO": "estrovertere",
+      "PARTICIPIO": "estrovertente",
+      "GERUNDIO": "estrovertendo"
+    },
+    "PASSATO": { "CONDIZIONALE": "—", "INFINITO": "—", "PARTICIPIO": "—", "GERUNDIO": "—" }
+  }
+}

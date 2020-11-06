@@ -1,0 +1,181 @@
+{
+  "IO": {
+    "INDICATIVO": {
+      "PRESENTE": "io consuccedo",
+      "IMPERFETTO": "io consuccedevo",
+      "PASSATO_REMOTO": "io consuccessi",
+      "FUTURO_SEMPLICE": "io consuccederò",
+      "PASSATO_PROSSIMO": "io sono consuccesso, consucceduto",
+      "TRAPASSATO_PROSSIMO": "io ero consuccesso, consucceduto",
+      "FUTURO_ANTERIORE": "io sarò consuccesso, consucceduto"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che io consucceda",
+      "IMPERFETTO": "che io consuccedessi",
+      "PASSATO": "che io sia consuccesso, consucceduto",
+      "TRAPASSATO": "che io fossi consuccesso, consucceduto"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "io consuccederei",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "io sarei consuccesso, consucceduto",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  },
+  "TU": {
+    "INDICATIVO": {
+      "PRESENTE": "tu consuccedi",
+      "IMPERFETTO": "tu consuccedevi",
+      "PASSATO_REMOTO": "tu consuccedesti",
+      "FUTURO_SEMPLICE": "tu consuccederai",
+      "PASSATO_PROSSIMO": "tu sei consuccesso, consucceduto",
+      "TRAPASSATO_PROSSIMO": "tu eri consuccesso, consucceduto",
+      "FUTURO_ANTERIORE": "tu sarai consuccesso, consucceduto"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che tu consucceda",
+      "IMPERFETTO": "che tu consuccedessi",
+      "PASSATO": "che tu sia consuccesso, consucceduto",
+      "TRAPASSATO": "che tu fossi consuccesso, consucceduto"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "tu consuccederesti",
+      "IMPERATIVO": "consuccedi",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "tu saresti consuccesso, consucceduto",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  },
+  "LUI_LEI": {
+    "INDICATIVO": {
+      "PRESENTE": "lui/lei consuccede",
+      "IMPERFETTO": "lui/lei consuccedeva",
+      "PASSATO_REMOTO": "lui/lei consuccesse",
+      "FUTURO_SEMPLICE": "lui/lei consuccederà",
+      "PASSATO_PROSSIMO": "lui/lei è consuccesso, consucceduto",
+      "TRAPASSATO_PROSSIMO": "lui/lei era consuccesso, consucceduto",
+      "FUTURO_ANTERIORE": "lui/lei sarà consuccesso, consucceduto"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che lui/lei consucceda",
+      "IMPERFETTO": "che lui/lei consuccedesse",
+      "PASSATO": "che lui/lei sia consuccesso, consucceduto",
+      "TRAPASSATO": "che lui/lei fosse consuccesso, consucceduto"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "lui/lei consuccederebbe",
+      "IMPERATIVO": "consucceda",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "lui/lei sarebbe consuccesso, consucceduto",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  },
+  "NOI": {
+    "INDICATIVO": {
+      "PRESENTE": "noi consuccediamo",
+      "IMPERFETTO": "noi consuccedevamo",
+      "PASSATO_REMOTO": "noi consuccedemmo",
+      "FUTURO_SEMPLICE": "noi consuccederemo",
+      "PASSATO_PROSSIMO": "noi siamo consuccesso, consucceduti",
+      "TRAPASSATO_PROSSIMO": "noi eravamo consuccesso, consucceduti",
+      "FUTURO_ANTERIORE": "noi saremo consuccesso, consucceduti"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che noi consuccediamo",
+      "IMPERFETTO": "che noi consuccedessimo",
+      "PASSATO": "che noi siamo consuccesso, consucceduti",
+      "TRAPASSATO": "che noi fossimo consuccesso, consucceduti"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "noi consuccederemmo",
+      "IMPERATIVO": "consuccediamo",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "noi saremmo consuccesso, consucceduti",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  },
+  "VOI": {
+    "INDICATIVO": {
+      "PRESENTE": "voi consuccedete",
+      "IMPERFETTO": "voi consuccedevate",
+      "PASSATO_REMOTO": "voi consuccedeste",
+      "FUTURO_SEMPLICE": "voi consuccederete",
+      "PASSATO_PROSSIMO": "voi siete consuccesso, consucceduti",
+      "TRAPASSATO_PROSSIMO": "voi eravate consuccesso, consucceduti",
+      "FUTURO_ANTERIORE": "voi sarete consuccesso, consucceduti"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che voi consuccediate",
+      "IMPERFETTO": "che voi consuccedeste",
+      "PASSATO": "che voi siate consuccesso, consucceduti",
+      "TRAPASSATO": "che voi foste consuccesso, consucceduti"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "voi consuccedereste",
+      "IMPERATIVO": "consuccedete",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "voi sareste consuccesso, consucceduti",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  },
+  "LORO": {
+    "INDICATIVO": {
+      "PRESENTE": "loro consuccedono",
+      "IMPERFETTO": "loro consuccedevano",
+      "PASSATO_REMOTO": "loro consuccessero",
+      "FUTURO_SEMPLICE": "loro consuccederanno",
+      "PASSATO_PROSSIMO": "loro sono consuccesso, consucceduti",
+      "TRAPASSATO_PROSSIMO": "loro erano consuccesso, consucceduti",
+      "FUTURO_ANTERIORE": "loro saranno consuccesso, consucceduti"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che loro consuccedano",
+      "IMPERFETTO": "che loro consuccedessero",
+      "PASSATO": "che loro siano consuccesso, consucceduti",
+      "TRAPASSATO": "che loro fossero consuccesso, consucceduti"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "loro consuccederebbero",
+      "IMPERATIVO": "consuccedano",
+      "INFINITO": "consuccedere",
+      "PARTICIPIO": "consuccedente",
+      "GERUNDIO": "consuccedendo"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "loro sarebbero consuccesso, consucceduti",
+      "INFINITO": "essere consuccesso, consucceduto/a/i/e",
+      "PARTICIPIO": "consuccesso, consucceduto/a/i/e",
+      "GERUNDIO": "essendo consuccesso, consucceduto/a/i/e"
+    }
+  }
+}

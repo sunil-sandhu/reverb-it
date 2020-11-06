@@ -7,7 +7,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import PillButton from "../../components/PillButton";
 import SquareButton from "../../components/SquareButton";
@@ -18,8 +18,13 @@ const StyledSquareContainer = styled.div`
   flex-flow: row wrap;
 `;
 
-const StyledWord = styled.p`
-  font-size: 2.5rem;
+interface StyledWordProps {
+  length?: number;
+}
+
+const StyledWord = styled.p<StyledWordProps>`
+  min-height: ${(props) => (props.length > 20 ? `auto` : "40px")};
+  font-size: ${(props) => (props.length > 15 ? `1.8rem` : props.length > 12 ? "2rem" : "2.5rem")};
   text-align: center;
   font-weight: bold;
 `;
@@ -27,13 +32,23 @@ const StyledWord = styled.p`
 const StyledSmallWord = styled.p`
   font-size: 1rem;
   text-align: center;
-  line-height: 2;
+  line-height: 1;
+  margin: 8px 0;
 `;
 
-const StyledBoldSmallWord = styled.p`
+const StyledSmallWordItalic = styled.em`
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1;
+  margin: 16px 0 0;
+`;
+
+const StyledSmallWordBold = styled.p`
   font-size: 1.2rem;
   text-align: center;
   font-weight: bold;
+  line-height: 1;
+  margin: 8px 0 4px;
 `;
 
 const StyledContainer = styled.div`
@@ -46,47 +61,66 @@ const StyledContainer = styled.div`
 
 type Color = "red" | "green" | undefined;
 
+interface QuestionObject {
+  question: string;
+  answer: string;
+  options: string[];
+  person: string;
+  tense: string;
+  infinitive: string;
+}
+
 interface GameViewProps {
-  guesses: [];
+  question: QuestionObject;
   guessMade: boolean;
+  score: number[];
   handleButtonColor: (arg0: string) => Color;
   handleGuessResponse: (arg0: string) => void;
 }
 
 const GameView: React.FC<GameViewProps> = ({
-  guesses,
+  question,
   guessMade,
+  score,
   handleButtonColor,
   handleGuessResponse,
 }) => {
   return (
     <IonPage>
-      <IonHeader className="ion-no-border ion-padding">
+      <IonHeader className="ion-no-border ion-padding-top">
         <IonToolbar>
           <div className="justify-center">
-            <IonTitle>score / total</IonTitle>
+            <IonTitle>
+              <StyledSmallWordBold>
+                {score[0]}/{score[1]}
+              </StyledSmallWordBold>
+            </IonTitle>
           </div>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        <StyledContainer>
-          <StyledBoldSmallWord>voi</StyledBoldSmallWord>
-          <StyledWord>bulareste</StyledWord>
-          <StyledSmallWord>(bulare)</StyledSmallWord>
-          <StyledSquareContainer>
-            {guesses.map((guess: string) => (
-              <SquareButton
-                key={guess}
-                title={guess}
-                guessMade={guessMade}
-                color={handleButtonColor(guess)}
-                onClickFunc={() => handleGuessResponse(guess)}
-              />
-            ))}
-          </StyledSquareContainer>
-        </StyledContainer>
+        {question.question && (
+          <StyledContainer>
+            <StyledSmallWord>({question.infinitive})</StyledSmallWord>
+            <StyledSmallWordBold>{question.person}</StyledSmallWordBold>
+            <StyledWord length={question.question.length}>{question.question}</StyledWord>
+            <StyledSmallWordItalic>{question.tense}</StyledSmallWordItalic>
+            <StyledSquareContainer>
+              {question.options &&
+                question.options.map((guess: string) => (
+                  <SquareButton
+                    key={guess}
+                    title={guess}
+                    guessMade={guessMade}
+                    color={handleButtonColor(guess)}
+                    onClickFunc={() => handleGuessResponse(guess)}
+                  />
+                ))}
+            </StyledSquareContainer>
+          </StyledContainer>
+        )}
       </IonContent>
-      <IonFooter className="ion-no-border ion-padding">
+      <IonFooter className="ion-no-border">
         <IonToolbar>
           <div className="justify-center">
             <IonRouterLink routerLink="/home" routerDirection="back" style={{ padding: "0 5px" }}>

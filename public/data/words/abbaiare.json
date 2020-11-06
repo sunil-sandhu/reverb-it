@@ -1,0 +1,181 @@
+{
+  "IO": {
+    "INDICATIVO": {
+      "PRESENTE": "io abbaio",
+      "IMPERFETTO": "io abbaiavo",
+      "PASSATO_REMOTO": "io abbaiai",
+      "FUTURO_SEMPLICE": "io abbaierò",
+      "PASSATO_PROSSIMO": "io ho abbaiato",
+      "TRAPASSATO_PROSSIMO": "io avevo abbaiato",
+      "FUTURO_ANTERIORE": "io avrò abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che io abbai",
+      "IMPERFETTO": "che io abbaiassi",
+      "PASSATO": "che io abbia abbaiato",
+      "TRAPASSATO": "che io avessi abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "io abbaierei",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "io avrei abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  },
+  "TU": {
+    "INDICATIVO": {
+      "PRESENTE": "tu abbai",
+      "IMPERFETTO": "tu abbaiavi",
+      "PASSATO_REMOTO": "tu abbaiasti",
+      "FUTURO_SEMPLICE": "tu abbaierai",
+      "PASSATO_PROSSIMO": "tu hai abbaiato",
+      "TRAPASSATO_PROSSIMO": "tu avevi abbaiato",
+      "FUTURO_ANTERIORE": "tu avrai abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che tu abbai",
+      "IMPERFETTO": "che tu abbaiassi",
+      "PASSATO": "che tu abbia abbaiato",
+      "TRAPASSATO": "che tu avessi abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "tu abbaieresti",
+      "IMPERATIVO": "abbaia",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "tu avresti abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  },
+  "LUI_LEI": {
+    "INDICATIVO": {
+      "PRESENTE": "lui/lei abbaia",
+      "IMPERFETTO": "lui/lei abbaiava",
+      "PASSATO_REMOTO": "lui/lei abbaiò",
+      "FUTURO_SEMPLICE": "lui/lei abbaierà",
+      "PASSATO_PROSSIMO": "lui/lei ha abbaiato",
+      "TRAPASSATO_PROSSIMO": "lui/lei aveva abbaiato",
+      "FUTURO_ANTERIORE": "lui/lei avrà abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che lui/lei abbai",
+      "IMPERFETTO": "che lui/lei abbaiasse",
+      "PASSATO": "che lui/lei abbia abbaiato",
+      "TRAPASSATO": "che lui/lei avesse abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "lui/lei abbaierebbe",
+      "IMPERATIVO": "abbai",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "lui/lei avrebbe abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  },
+  "NOI": {
+    "INDICATIVO": {
+      "PRESENTE": "noi abbaiamo",
+      "IMPERFETTO": "noi abbaiavamo",
+      "PASSATO_REMOTO": "noi abbaiammo",
+      "FUTURO_SEMPLICE": "noi abbaieremo",
+      "PASSATO_PROSSIMO": "noi abbiamo abbaiato",
+      "TRAPASSATO_PROSSIMO": "noi avevamo abbaiato",
+      "FUTURO_ANTERIORE": "noi avremo abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che noi abbaiamo",
+      "IMPERFETTO": "che noi abbaiassimo",
+      "PASSATO": "che noi abbiamo abbaiato",
+      "TRAPASSATO": "che noi avessimo abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "noi abbaieremmo",
+      "IMPERATIVO": "abbaiamo",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "noi avremmo abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  },
+  "VOI": {
+    "INDICATIVO": {
+      "PRESENTE": "voi abbaiate",
+      "IMPERFETTO": "voi abbaiavate",
+      "PASSATO_REMOTO": "voi abbaiaste",
+      "FUTURO_SEMPLICE": "voi abbaierete",
+      "PASSATO_PROSSIMO": "voi avete abbaiato",
+      "TRAPASSATO_PROSSIMO": "voi avevate abbaiato",
+      "FUTURO_ANTERIORE": "voi avrete abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che voi abbaiate",
+      "IMPERFETTO": "che voi abbaiaste",
+      "PASSATO": "che voi abbiate abbaiato",
+      "TRAPASSATO": "che voi aveste abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "voi abbaiereste",
+      "IMPERATIVO": "abbaiate",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "voi avreste abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  },
+  "LORO": {
+    "INDICATIVO": {
+      "PRESENTE": "loro abbaiano",
+      "IMPERFETTO": "loro abbaiavano",
+      "PASSATO_REMOTO": "loro abbaiarono",
+      "FUTURO_SEMPLICE": "loro abbaieranno",
+      "PASSATO_PROSSIMO": "loro hanno abbaiato",
+      "TRAPASSATO_PROSSIMO": "loro avevano abbaiato",
+      "FUTURO_ANTERIORE": "loro avranno abbaiato"
+    },
+    "CONGIUNTIVO": {
+      "PRESENTE": "che loro abbaino",
+      "IMPERFETTO": "che loro abbaiassero",
+      "PASSATO": "che loro abbiano abbaiato",
+      "TRAPASSATO": "che loro avessero abbaiato"
+    },
+    "PRESENTE": {
+      "CONDIZIONALE": "loro abbaierebbero",
+      "IMPERATIVO": "abbaino",
+      "INFINITO": "abbaiare",
+      "PARTICIPIO": "abbaiante",
+      "GERUNDIO": "abbaiando"
+    },
+    "PASSATO": {
+      "CONDIZIONALE": "loro avrebbero abbaiato",
+      "INFINITO": "avere abbaiato",
+      "PARTICIPIO": "abbaiato",
+      "GERUNDIO": "avendo abbaiato"
+    }
+  }
+}

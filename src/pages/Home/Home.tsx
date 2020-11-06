@@ -1,4 +1,4 @@
-import { IonPage, IonContent, IonRouterLink } from "@ionic/react";
+import { IonPage, IonContent, IonRouterLink, IonFooter } from "@ionic/react";
 import React from "react";
 import styled from "styled-components";
 
@@ -13,33 +13,37 @@ const StyledSection = styled.div`
 
 const StyledTitle = styled.h1`
   font-family: "Tiempos Fine Test";
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
   letter-spacing: -2.5px;
 `;
 
-const StyledButton = styled.button`
+interface StyledButtonProps {
+  white?: boolean;
+}
+
+// #847D85
+
+const StyledButton = styled.button<StyledButtonProps>`
   display: block;
-  margin: 6px auto;
+  margin: 10px auto;
   width: 100%;
-  // max-width: 420px;
+  max-width: 420px;
   padding: 18px 20px;
   border-radius: 20px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
+  background: ${(props) => (props.white ? "rgba(255, 255, 255, 0.65)" : "rgba(0, 0, 0, 0.65)")};
+  color: ${(props) => (props.white ? "rgba(0, 0, 0, 1)" : "rgba(255, 255, 255, 1)")};
+  backdrop-filter: ${(props) =>
+    props.white ? "blur(8px) brightness(170%);" : "blur(6px) brightness(0%) opacity(0)"};
   font-size: 1.5rem;
-  backdrop-filter: blur(6px);
-  font-family: Helvetica;
   font-weight: 600;
+  font-family: Helvetica;
   border: 1px solid white;
   letter-spacing: -1px;
 `;
 
-const StyledFooter = styled.div`
-  padding: 16px;
-`;
-
 const Home: React.FC = () => {
+  // total words 17754
   return (
     <IonPage>
       <IonContent className="home">
@@ -47,14 +51,14 @@ const Home: React.FC = () => {
           <StyledTitle>Reverb</StyledTitle>
         </StyledSection>
 
-        <StyledFooter>
+        <IonFooter className="ion-padding">
           <IonRouterLink routerLink="game" routerDirection="forward">
-            <StyledButton>Play</StyledButton>
+            <StyledButton white>Play</StyledButton>
           </IonRouterLink>
           <IonRouterLink routerLink="dictionary" routerDirection="forward">
             <StyledButton>Dictionary</StyledButton>
           </IonRouterLink>
-        </StyledFooter>
+        </IonFooter>
       </IonContent>
     </IonPage>
   );
