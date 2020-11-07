@@ -1163,6 +1163,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@capacitor/android@2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.4.2.tgz#ddc55bf0ea78214a0a760330a439916093792d00"
+  integrity sha512-0OpOmsno6yFyN0tOEhE9LkAqQrnTGUxz49+ZdivieI3axFe3CpxbFhcfIsJtr96q9jhkspkYPMqGNZm3gPKjaA==
+
 "@capacitor/cli@2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-2.4.2.tgz#3fdb7dedfb2498e2554f757078a0c84ea9aaa76e"
@@ -1186,6 +1191,11 @@
   integrity sha512-xQyJSZo50+aAvX3ZsX5h2xJDjz1LQxGT0A6/qD1pqJVEUeDhzdfYMbxCPWbmqSONZXddHtwrTiIsjq1Wd+ukuQ==
   dependencies:
     tslib "^1.9.0"
+
+"@capacitor/ios@2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-2.4.2.tgz#cb608c8009a4609f2c654d78bf21967ecf3b0724"
+  integrity sha512-DqfDBrbaVKV2nkjMF7uL58G5QbJHoQVu/qdw/Uh5QSVkHqsY0lBKyi5nxhH3+cqBBMl+oGNB9EMBHovRVdR0EQ==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"

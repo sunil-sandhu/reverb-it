@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Reverb (IT)</string>
+    <string name="title_activity_main">Reverb (IT)</string>
+    <string name="package_name">ooo.lemonade.reverbit</string>
+    <string name="custom_url_scheme">ooo.lemonade.reverbit</string>
+</resources>

@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "2.4.2",
     "@capacitor/core": "2.4.2",
+    "@capacitor/ios": "2.4.2",
     "@ionic/react": "^5.0.7",
     "@ionic/react-router": "^5.0.7",
     "@testing-library/jest-dom": "^5.11.5",
@@ -29,7 +31,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:mobile": "yarn build && ionic cap copy && ionic cap sync",
+    "open:android": "ionic cap open android",
+    "open:ios": "ionic cap open ios",
+    "add:ios": "ionic capacitor add ios",
+    "add:android": "ionic capacitor add android"
   },
   "eslintConfig": {
     "extends": "react-app"
