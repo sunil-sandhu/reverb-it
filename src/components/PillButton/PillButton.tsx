@@ -4,6 +4,7 @@ import styled from "styled-components";
 interface ButtonProps {
   onClickFunc?: any;
   title: string;
+  disabled?: boolean;
 }
 
 const StyledButton = styled.button`
@@ -20,9 +21,9 @@ const StyledButton = styled.button`
   margin: 0 auto;
 `;
 
-const PillButton = ({ onClickFunc, title }: ButtonProps) => {
+const PillButton = ({ onClickFunc, title, disabled }: ButtonProps) => {
   return (
-    <StyledButton onClick={onClickFunc} aria-label={title}>
+    <StyledButton onClick={onClickFunc} aria-label={title} disabled={disabled}>
       {title}
     </StyledButton>
   );

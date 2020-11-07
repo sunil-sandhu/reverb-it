@@ -38,6 +38,11 @@ const StyledButton = styled.button`
   margin: 0 auto;
 `;
 
+const StyledText = styled.p`
+  margin-top: 6px;
+  display: block;
+`;
+
 const Definition: React.FC = () => {
   const params: any = useParams();
   const [definition, setDefinition]: any = useState("");
@@ -51,7 +56,7 @@ const Definition: React.FC = () => {
 
   const handleTranslation = () => {
     if (activeLanguage === "IT") {
-      setDefinition(translationEN[params.wordId]);
+      setDefinition([translationEN[params.wordId]]);
       setWord(translationEN[params.wordId]);
       setActiveLanguage("EN");
     } else {
@@ -67,7 +72,6 @@ const Definition: React.FC = () => {
         <IonToolbar>
           <IonItem lines="none">
             <slot slot="start">
-              {" "}
               <StyledTitle>{word ? word : ""}</StyledTitle>
             </slot>
             <slot slot="end">
@@ -80,7 +84,12 @@ const Definition: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen className="ion-padding">
         <IonList>
-          <p>{definition ? definition : ""}</p>
+          {definition &&
+            definition.map((def: string, index: number) => (
+              <IonItem lines="none" key={index}>
+                <StyledText>{def}</StyledText>
+              </IonItem>
+            ))}
         </IonList>
       </IonContent>
       <IonFooter className="ion-no-border">

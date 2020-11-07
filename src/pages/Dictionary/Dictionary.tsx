@@ -34,15 +34,17 @@ const StyledWordColored = styled.p<StyledWordCapturedProps>`
 `;
 
 const StyledTextGreen = styled.p`
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   color: ${defaultStyles.green};
+  margin-top: 6px;
 `;
 
 const StyledTextRed = styled.p`
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   color: ${defaultStyles.red};
+  margin-top: 6px;
 `;
 
 const StyledTitle = styled.p`
@@ -52,7 +54,7 @@ const StyledTitle = styled.p`
   margin: 0;
 `;
 
-const Dictionary: React.FC = (props) => {
+const Dictionary: React.FC = () => {
   const [dbDictionary, setDbDictionary]: any = useState(undefined);
   const [dictionary, setDictionary] = useState([]);
   const [dictionaryLength, setDictionaryLength]: any = useState(0);
@@ -88,19 +90,20 @@ const Dictionary: React.FC = (props) => {
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
-        <IonToolbar className="ion-padding">
-          <div className="space-between">
-            <StyledTitle>Dictionary</StyledTitle>
-            <div>
-              <StyledTextRed>verbs seen: {dictionaryLength}/17755</StyledTextRed>
-              <StyledTextGreen>verbs collected: {dictionaryCapturedLength}/17755</StyledTextGreen>
-            </div>
-          </div>
+        <IonToolbar className="ion-padding-horizontal ion-padding-top ">
+          <StyledTitle>Dictionary</StyledTitle>
+
+          <StyledTextRed>Seen: {dictionaryLength}/17754</StyledTextRed>
+          <StyledTextGreen>Collected: {dictionaryCapturedLength}/17754</StyledTextGreen>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className="ion-padding">
         <IonList>
-          <p className="ion-padding">Select a verb to read more</p>
+          {dictionaryLength > 0 ? (
+            <p className="ion-padding">Select a verb to read more</p>
+          ) : (
+            <p className="ion-padding">Play the game to start collecting verbs</p>
+          )}
 
           {dictionary &&
             dictionary.map((entry: { id: number; word: string; captured: boolean }) => (

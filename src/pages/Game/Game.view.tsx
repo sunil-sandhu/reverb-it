@@ -37,10 +37,11 @@ const StyledSmallWord = styled.p`
 `;
 
 const StyledSmallWordItalic = styled.em`
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-align: center;
   line-height: 1;
-  margin: 16px 0 0;
+  margin: 20px 0 0;
 `;
 
 const StyledSmallWordBold = styled.p`
@@ -48,7 +49,8 @@ const StyledSmallWordBold = styled.p`
   text-align: center;
   font-weight: bold;
   line-height: 1;
-  margin: 8px 0 4px;
+  margin: 8px 0 0;
+  min-height: 19px;
 `;
 
 const StyledContainer = styled.div`
@@ -124,7 +126,7 @@ const GameView: React.FC<GameViewProps> = ({
         <IonToolbar>
           <div className="justify-center">
             <IonRouterLink routerLink="/home" routerDirection="back" style={{ padding: "0 5px" }}>
-              <PillButton title="Home" />
+              <PillButton title="Home" disabled={guessMade} />
             </IonRouterLink>
           </div>
         </IonToolbar>

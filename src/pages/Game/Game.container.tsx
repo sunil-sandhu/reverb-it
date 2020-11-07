@@ -48,7 +48,7 @@ const GameContainer: React.FC = () => {
 
         let _tense = verbSubtype[getRandomIndexFromArray(verbSubtype)];
         let _tense_sanitized = _tense.toLowerCase();
-        // this gives things such as "congiuntivo", "present"
+        // this gives things such as "congiuntivo", "presente"
 
         let _allOptions: string[] = Object.keys(d[_person][_tense]);
 
@@ -85,6 +85,8 @@ const GameContainer: React.FC = () => {
         if (questionAsArray.includes(_person_sanitized)) {
           _question = questionAsArray.pop();
           _person_sanitized = questionAsArray.join(" ").replace(",", "/");
+        } else {
+          _person_sanitized = "";
         }
         // end block
 
@@ -168,6 +170,8 @@ const GameContainer: React.FC = () => {
         if (questionAsArray.includes(_person_sanitized)) {
           _question = questionAsArray.pop();
           _person_sanitized = questionAsArray.join(" ");
+        } else {
+          _person_sanitized = "";
         }
         // end block
 

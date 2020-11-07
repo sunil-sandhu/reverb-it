@@ -1,6 +1,7 @@
 import { IonPage, IonContent, IonRouterLink, IonFooter } from "@ionic/react";
 import React from "react";
 import styled from "styled-components";
+import { dbFunctions } from "../../database";
 
 const StyledSection = styled.div`
   width: 100%;
@@ -14,6 +15,7 @@ const StyledSection = styled.div`
 const StyledTitle = styled.h1`
   font-family: "Tiempos Fine Test";
   font-size: 4em;
+  color: black;
   font-weight: bold;
   letter-spacing: -2.5px;
 `;
@@ -42,8 +44,15 @@ const StyledButton = styled.button<StyledButtonProps>`
   letter-spacing: -1px;
 `;
 
+// if there's no dictionary item in the db, go ahead and create it
+(async () => {
+  let keys = await dbFunctions.keys().then((res) => res);
+  if (!keys.includes("dictionary")) {
+    dbFunctions.setItem("dictionary", {});
+  }
+})();
+
 const Home: React.FC = () => {
-  // total words 17754
   return (
     <IonPage>
       <IonContent className="home">
@@ -56,7 +65,7 @@ const Home: React.FC = () => {
             <StyledButton white>Play</StyledButton>
           </IonRouterLink>
           <IonRouterLink routerLink="dictionary" routerDirection="forward">
-            <StyledButton>Dictionary</StyledButton>
+            <StyledButton white>Your Dictionary</StyledButton>
           </IonRouterLink>
         </IonFooter>
       </IonContent>
