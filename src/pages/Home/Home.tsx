@@ -1,5 +1,6 @@
+import { Capacitor, Plugins } from "@capacitor/core";
 import { IonPage, IonContent, IonRouterLink, IonFooter } from "@ionic/react";
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { dbFunctions } from "../../database";
 
@@ -53,6 +54,15 @@ const StyledButton = styled.button<StyledButtonProps>`
 })();
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    if (Capacitor.isNative) {
+      Plugins.App.addListener("backButton", () => {
+        if (window.location.pathname === "/" || window.location.pathname === "/home") {
+          Plugins.App.exitApp();
+        }
+      });
+    }
+  }, []);
   return (
     <IonPage>
       <IonContent className="home">
